@@ -1,0 +1,42 @@
+ a = int(input("Ведите первое число: "))
+c = input("Ведите знак: ")
+b = int(input("Ведите второе число: "))
+p = input("Ведите знак: ")
+l = int(input("Ведите второе число: "))
+k=c
+h=c
+e=c
+i=p
+j=p
+v=p
+
+
+
+
+if c=="+" and p=="+":
+    print(a+b+l)
+elif k=="+" and p=="-":
+    print(a+b-l)
+elif k == "+" and p == "/":
+    print(a + b // l)
+elif k == "+" and p == "*":
+    print(a + b * l)
+elif k == "-" and p == "+":
+    print(a - b + l)
+
+elif k == "/" and p == "+":
+    print(a // b + l)
+elif k == "/" and p == "*":
+    print(a // b * l)
+elif k == "*" and p == "+":
+    print(a * b + l)
+elif k == "-" and p == "-":
+    print(a - b - l)
+elif k == "/" and p == "/":
+    print(a // b // l)
+elif k == "*" and p == "*":
+    print(a * b * l)
+elif e == "*":
+    print(a * b)
+print("Ответ готов!")
+print("В исполнителе программы Python!")
